@@ -20,6 +20,7 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 public class DataSourceTests {
 	
+	
 	@Setter(onMethod_ = { @Autowired })
 	private DataSource dataSource;
 
