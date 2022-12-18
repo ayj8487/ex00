@@ -173,7 +173,14 @@
 			<artifactId>spring-tx</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-		   
+		
+		<!-- Mybatis의 SQL 문의 결과값이 ? 로 반환되기 때문에 ?의 값을 전환하는 라이브러리 -->  
+		<!-- 라이브러리 추가 후 로그 설정파일추가와 JDBC 연결정보 수정-->
+	 	<dependency>
+			<groupId>org.bgee.log4jdbc-log4j2</groupId>
+			<artifactId>log4jdbc-log4j2-jdbc4</artifactId>
+			<version>1.16</version>
+		</dependency>  
 		   
 	</dependencies>
     <build>
